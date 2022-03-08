@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="167dp"
+    android:height="88dp"
+    android:viewportWidth="167"
+    android:viewportHeight="88">
+  <path
+      android:pathData="M125.5,44.5m-40.75,0a40.75,40.75 0,1 1,81.5 0a40.75,40.75 0,1 1,-81.5 0"
+      android:strokeWidth="1.5"
+      android:fillColor="#00000000"
+      android:strokeColor="#F0B6FF"/>
+  <path
+      android:pathData="M125.5,44.5m-25.75,0a25.75,25.75 0,1 1,51.5 0a25.75,25.75 0,1 1,-51.5 0"
+      android:strokeWidth="1.5"
+      android:fillColor="#00000000"
+      android:strokeColor="#F0B6FF"/>
+  <path
+      android:pathData="M125.5,44.5m-33.5,0a33.5,33.5 0,1 1,67 0a33.5,33.5 0,1 1,-67 0"
+      android:strokeWidth="14"
+      android:fillColor="#00000000">
+    <aapt:attr name="android:strokeColor">
+      <gradient 
+          android:startY="4"
+          android:startX="125.5"
+          android:endY="85"
+          android:endX="125.5"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFF1B7FF"/>
+        <item android:offset="1" android:color="#00F1B7FF"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M44,58.5L16.5,86L2,71L29.5,44L2,16.5L17,2L44,29.5L71.5,2L86,17L59,44L86,71.5L71,86L44,58.5Z"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#B8DDFF"/>
+  <path
+      android:pathData="M2,16.5L29.5,44L2,71L16.5,86L44,58.5L71,86L86,71.5L58.5,44L86,17L71.5,2L44,29.5L17,2L2,16.5Z"
+      android:strokeWidth="1.5"
+      android:strokeColor="#B8DDFF">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startY="2"
+          android:startX="44"
+          android:endY="86"
+          android:endX="44"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFB8DDFF"/>
+        <item android:offset="1" android:color="#00B8DDFF"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+</vector>
