@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DifficultyActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans"
+        android:text="Selecione uma dificuldade"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="30dp"
+        >
+
+        <Button
+            android:id="@+id/facilButton"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:text="  Fácil  "
+            android:background="@drawable/rounded_button"
+            android:textColor="#B8DDFF"
+            android:fontFamily="@font/noto_sans_bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35dp"
+            />
+
+        <ImageView
+            android:id="@+id/icfacil"
+            android:src="@drawable/ic_boticonfacil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:elevation="2dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        >
+
+        <Button
+            android:id="@+id/medioButton"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:text="Médio"
+            android:background="@drawable/rounded_button"
+            android:textColor="#B8DDFF"
+            android:fontFamily="@font/noto_sans_bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35dp"
+            />
+
+        <ImageView
+            android:id="@+id/icmedio"
+            android:src="@drawable/ic_boticonmedio"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:elevation="2dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        >
+
+        <Button
+            android:id="@+id/dificilButton"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:text="Difícil"
+            android:background="@drawable/rounded_button"
+            android:textColor="#B8DDFF"
+            android:fontFamily="@font/noto_sans_bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35dp"
+            />
+
+        <ImageView
+            android:id="@+id/icdificil"
+            android:src="@drawable/ic_boticondificil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:elevation="2dp"
+            />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/voltar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_botaovoltar"
+        android:layout_marginTop="200px"
+        />
+
+</LinearLayout>
