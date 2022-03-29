@@ -1,0 +1,71 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="152dp"
+    android:height="183dp"
+    android:viewportWidth="152"
+    android:viewportHeight="183">
+  <path
+      android:pathData="M76.224,113.935m-66.565,0a66.565,66.565 0,1 1,133.13 0a66.565,66.565 0,1 1,-133.13 0"
+      android:strokeWidth="5"
+      android:fillColor="#BBADFF"
+      android:strokeColor="#195272"/>
+  <path
+      android:pathData="M148.808,87.541C149.512,101.97 136.784,107.043 130.332,107.776C133.147,100.034 133.851,78.45 133.851,68.625C146.168,69.329 148.954,81.529 148.808,87.541Z"
+      android:strokeWidth="5"
+      android:fillColor="#ffffff"
+      android:strokeColor="#195272"/>
+  <path
+      android:pathData="M2.792,88.634C0.833,74.322 13.07,68.158 19.434,66.865C17.304,74.824 18.484,96.387 19.34,106.175C7.008,106.547 3.17,94.636 2.792,88.634Z"
+      android:strokeWidth="5"
+      android:fillColor="#ffffff"
+      android:strokeColor="#195272"/>
+  <path
+      android:pathData="M61.836,36.813L89.73,36.813A42.5,42.5 0,0 1,132.23 79.313L132.23,86.091A42.5,42.5 0,0 1,89.73 128.591L61.836,128.591A42.5,42.5 0,0 1,19.336 86.091L19.336,79.313A42.5,42.5 0,0 1,61.836 36.813z"
+      android:strokeWidth="5"
+      android:fillColor="#ffffff"
+      android:strokeColor="#195272"/>
+  <path
+      android:pathData="M59.914,55.289L91.654,55.289A26.5,26.5 0,0 1,118.154 81.788L118.154,88.015A26.5,26.5 0,0 1,91.654 114.515L59.914,114.515A26.5,26.5 0,0 1,33.414 88.015L33.414,81.788A26.5,26.5 0,0 1,59.914 55.289z"
+      android:strokeWidth="5"
+      android:fillColor="#E1F4F0"
+      android:strokeColor="#195272"/>
+  <path
+      android:pathData="M56.868,77.863m-6.599,0a6.599,6.599 0,1 1,13.197 0a6.599,6.599 0,1 1,-13.197 0"
+      android:fillColor="#195272"/>
+  <path
+      android:pathData="M95.579,77.863m-6.599,0a6.599,6.599 0,1 1,13.197 0a6.599,6.599 0,1 1,-13.197 0"
+      android:fillColor="#195272"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M86.583,88.861H65.418C63.86,88.861 62.528,90.063 62.613,91.618C63.163,101.647 72.016,104.257 76.741,104.257C85.548,104.257 88.641,97.115 89.34,91.767C89.55,90.157 88.206,88.861 86.583,88.861Z"
+      android:fillColor="#195272"
+      android:strokeColor="#195272"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M83.382,98.232C77.228,94.086 71.449,96.36 69.027,98.226C68.877,98.341 68.884,98.565 69.035,98.679C74.869,103.116 80.834,100.688 83.404,98.695C83.558,98.576 83.544,98.341 83.382,98.232Z"
+      android:fillColor="#F9BBBB"
+      android:strokeColor="#F9BBBB"/>
+  <path
+      android:pathData="M76.664,34.313V21.995"
+      android:strokeWidth="5"
+      android:fillColor="#00000000"
+      android:strokeColor="#195272"/>
+  <path
+      android:pathData="M76.663,12.317m-9.817,0a9.817,9.817 0,1 1,19.635 0a9.817,9.817 0,1 1,-19.635 0"
+      android:strokeWidth="5"
+      android:fillColor="#E1F4F0"
+      android:strokeColor="#195272"/>
+  <path
+      android:pathData="M54.708,140.649C38.871,145.928 35.792,159.565 36.232,165.724C70.72,190.358 104.563,175.988 117.174,165.724C114.71,147.072 99.978,141.236 93.82,140.649H54.708Z"
+      android:strokeWidth="5"
+      android:fillColor="#ffffff"
+      android:strokeColor="#195272"/>
+  <path
+      android:pathData="M120.214,17.596L120.214,17.596A2.2,2.2 0,0 1,122.413 19.796L122.413,25.075A2.2,2.2 0,0 1,120.214 27.274L120.214,27.274A2.2,2.2 0,0 1,118.014 25.075L118.014,19.796A2.2,2.2 0,0 1,120.214 17.596z"
+      android:fillColor="#DCF5FF"/>
+  <path
+      android:pathData="M135.702,22.558L135.702,22.558A2.2,2.2 86,0 1,135.919 25.661L132.456,29.645A2.2,2.2 86,0 1,129.353 29.862L129.353,29.862A2.2,2.2 86.001,0 1,129.136 26.759L132.599,22.775A2.2,2.2 86,0 1,135.702 22.558z"
+      android:fillColor="#DCF5FF"/>
+  <path
+      android:pathData="M132.091,37.392L132.091,37.392A2.2,2.2 0,0 1,134.291 35.192L139.569,35.192A2.2,2.2 0,0 1,141.769 37.392L141.769,37.392A2.2,2.2 0,0 1,139.569 39.591L134.291,39.591A2.2,2.2 0,0 1,132.091 37.392z"
+      android:fillColor="#DCF5FF"/>
+</vector>

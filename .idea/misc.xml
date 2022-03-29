@@ -9,7 +9,13 @@
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_boticondificil.xml" value="0.3828125" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_boticonfacil.xml" value="0.5" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_buttonconfig.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_centerbutton.xml" value="0.3828125" />
+        <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_character_container2.xml" value="0.3828125" />
+        <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_downleftbutton.xml" value="0.3828125" />
+        <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_homebutton.xml" value="0.3828125" />
+        <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_iconplayer.xml" value="0.3828125" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_o_icon.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_o_icon2.xml" value="0.3828125" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_o_radiobuttonoff.xml" value="0.3828125" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_o_radiobuttonon.xml" value="0.3828125" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/ic_pfpdefault.xml" value="0.5" />
@@ -24,7 +30,7 @@
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/x_icon.xml" value="0.3828125" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_config.xml" value="0.33" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_difficulty.xml" value="0.33" />
-        <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_game.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_game.xml" value="0.33" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_splash.xml" value="0.33" />
         <entry key="..\:/Users/21276337/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_token_choose.xml" value="0.36666666666666664" />

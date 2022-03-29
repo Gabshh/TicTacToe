@@ -24,7 +24,6 @@
         android:background="@drawable/ic_menu_box"
         android:orientation="vertical"
         android:gravity="center"
-
         >
 
         <LinearLayout
