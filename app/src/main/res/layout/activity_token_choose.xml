@@ -40,41 +40,34 @@
 
     </LinearLayout>
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="150px"
-            >
-
-            <LinearLayout
+            <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingBottom="150px"
                 android:orientation="horizontal"
-                android:layout_gravity="center"
                 >
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="50dp"
-                android:button="@drawable/x_btn_radio"
-                android:buttonTint="@color/blueblue"
-                >
-            </RadioButton>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="50dp"
+                        android:button="@drawable/x_btn_radio"
+                        android:buttonTint="@color/blueblue"
+                        >
+                    </RadioButton>
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="50dp"
-                android:button="@drawable/o_btn_radio"
-                android:buttonTint="@color/teal_200"
-                >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="50dp"
+                        android:button="@drawable/o_btn_radio"
+                        android:buttonTint="@color/teal_200"
+                        >
 
-            </RadioButton>
+                    </RadioButton>
 
-            </LinearLayout>
+            </RadioGroup>
 
-        </RadioGroup>
 
     <Button
         android:id="@+id/continuarButton"

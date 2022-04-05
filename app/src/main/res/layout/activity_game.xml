@@ -140,24 +140,29 @@
         android:layout_marginVertical="1dp"
         >
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/up_left_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_upleftbutton"
+            android:backgroundTint="#C4C3FF"
             />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/up_center_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_centerbutton"
             android:layout_marginHorizontal="5dp"
-
+            android:backgroundTint="#C4C3FF"
             />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/up_right_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_uprightbutton"
+            android:backgroundTint="#C4C3FF"
             />
 
 
@@ -171,23 +176,29 @@
         android:layout_marginVertical="1dp"
         >
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/center_left_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_centerbutton"
+            android:backgroundTint="#D0C0FF"
             />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/center_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_centerbutton"
             android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#D0C0FF"
             />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/center_right_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_centerbutton"
+            android:backgroundTint="#D0C0FF"
             />
 
 
@@ -201,23 +212,29 @@
         android:layout_marginBottom="10dp"
         >
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/down_left_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_downleftbutton"
+            android:backgroundTint="#DABEFF"
             />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/down_center_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_centerbutton"
             android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#DABEFF"
             />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/down_right_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_downrightbutton"
+            android:backgroundTint="#DABEFF"
             />
 
 

@@ -35,25 +35,28 @@
             android:paddingBottom="10dp"
             >
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/esquerda_seletor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_botao_seletor_left"
-
+                android:backgroundTint="#B9AFFF"
                 />
 
             <ImageView
+                android:id="@+id/pfp_default"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_pfpdefault"
 
                 />
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/direita_seletor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_botao_seletor_right"
-
+                android:backgroundTint="#B9AFFF"
                 />
 
         </LinearLayout>
@@ -99,11 +102,11 @@
             android:layout_marginTop="50dp"
             >
 
-            <ImageView
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_botao_seletor_left"
-
+                android:backgroundTint="#C9ACFF"
                 />
 
             <ImageView
@@ -113,11 +116,11 @@
 
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_botao_seletor_right"
-
+                android:backgroundTint="#C9ACFF"
                 />
 
         </LinearLayout>

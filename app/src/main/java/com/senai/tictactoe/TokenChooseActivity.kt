@@ -11,8 +11,10 @@ class TokenChooseActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_token_choose)
 
-    val voltarBtn = findViewById<ImageButton>(R.id.voltar)
-    val continuarBtn = findViewById<Button>(R.id.continuarButton)
+        val voltarBtn = findViewById<ImageButton>(R.id.voltar)
+        val continuarBtn = findViewById<Button>(R.id.continuarButton)
+
+
 
         voltarBtn.setOnClickListener{
             finish()
