@@ -54,7 +54,7 @@
                 <ImageView
                     android:layout_width="57dp"
                     android:layout_height="57dp"
-                    android:src="@drawable/ic_x_icon"
+                    android:src="@drawable/ic_x_icon2"
                     android:layout_marginTop="7dp"
                     android:layout_marginStart="6dp"
                     />
@@ -64,16 +64,17 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="175dp"
-                android:src="@drawable/ic_character_container2"
-                />
+                android:src="@drawable/ic_character_container2" />
 
             <TextView
+                android:id="@+id/roundAviso1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="180dp"
                 android:text="Sua vez..."
                 android:textColor="@color/white"
-                android:layout_marginTop="180dp"
-                android:layout_marginStart="35dp"
+                android:visibility="visible"
                 />
 
         </RelativeLayout>
@@ -83,49 +84,58 @@
             android:layout_height="240dp"
             android:orientation="horizontal"
             android:gravity="center"
-            android:layout_marginBottom="10dp"
             >
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:elevation="1dp"
+                android:paddingStart="10dp"
                 >
 
-            <ImageView
-                android:contentDescription="nssei"
-                android:layout_width="97dp"
-                android:layout_height="97dp"
-                android:src="@drawable/ic_boticon"
-                android:elevation="1dp"
-                android:layout_marginStart="7dp"
-                />
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_iconplayer"
+                    android:elevation="1dp"
+                    android:layout_marginStart="5dp"
+                    />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bot"
-                android:textColor="@color/white"
-                android:layout_marginTop="7dp"
-                android:layout_marginStart="7dp"
-                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Player 2"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="7dp"
+                    />
 
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/ic_o_icon2"
-                android:layout_marginTop="7dp"
-                android:layout_marginStart="6dp"
-                />
+                <ImageView
+                    android:layout_width="57dp"
+                    android:layout_height="57dp"
+                    android:src="@drawable/ic_o_icon2"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="6dp"
+                    />
 
             </LinearLayout>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="230dp"
-                android:src="@drawable/ic_character_container2"
+                android:layout_height="175dp"
+                android:src="@drawable/ic_character_container2" />
+
+            <TextView
+                android:id="@+id/roundAviso2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="180dp"
+                android:text="Sua vez..."
+                android:textColor="@color/white"
+                android:visibility="gone"
                 />
 
         </RelativeLayout>
@@ -144,7 +154,7 @@
             android:id="@+id/up_left_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/ic_upleftbutton"
+            android:src="@drawable/ic_centerbutton"
             android:backgroundTint="#C4C3FF"
             />
 
@@ -161,9 +171,8 @@
             android:id="@+id/up_right_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/ic_uprightbutton"
             android:backgroundTint="#C4C3FF"
-            />
+            android:src="@drawable/ic_centerbutton" />
 
 
     </LinearLayout>
@@ -216,7 +225,7 @@
             android:id="@+id/down_left_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/ic_downleftbutton"
+            android:src="@drawable/ic_centerbutton"
             android:backgroundTint="#DABEFF"
             />
 
@@ -233,7 +242,7 @@
             android:id="@+id/down_right_button"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/ic_downrightbutton"
+            android:src="@drawable/ic_centerbutton"
             android:backgroundTint="#DABEFF"
             />
 
