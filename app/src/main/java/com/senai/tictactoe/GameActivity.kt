@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import android.widget.TextView
-import androidx.appcompat.app.AlertDialog
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 lateinit var botao1: ImageButton
@@ -117,36 +117,41 @@ class GameActivity : AppCompatActivity() {
         if( validarVitoria(botao1, botao2, botao3, jogadaX) ||
             validarVitoria(botao4, botao5, botao6, jogadaX) ||
             validarVitoria(botao7, botao8, botao9, jogadaX)   ){
-            abrirMenuGameOver()
+            mensagemGameOver()
 
         }//Checando vitória vertical por X
         else if( validarVitoria(botao1, botao4, botao7, jogadaX) ||
                  validarVitoria(botao2, botao5, botao8, jogadaX) ||
                  validarVitoria(botao3, botao6, botao9, jogadaX)   ) {
-                 abrirMenuGameOver()
+                 mensagemGameOver()
 
         }//Checando vitória diagonal por X
         else if( validarVitoria(botao1, botao5, botao9, jogadaX) ||
                  validarVitoria(botao3, botao5, botao7, jogadaX) ) {
-                 abrirMenuGameOver()
+                 mensagemGameOver()
         }
 
         //Checando vitória horizontal por O
         else if( validarVitoria(botao1, botao2, botao3, jogadaO) ||
                  validarVitoria(botao4, botao5, botao6, jogadaO) ||
                  validarVitoria(botao7, botao8, botao9, jogadaO)   ){
-                 abrirMenuGameOver()
+                 mensagemGameOver()
 
         }//Checando vitória vertical por O
         else if( validarVitoria(botao1, botao4, botao7, jogadaO) ||
                  validarVitoria(botao2, botao5, botao8, jogadaO) ||
                  validarVitoria(botao3, botao6, botao9, jogadaO)   ) {
-                 abrirMenuGameOver()
+                 mensagemGameOver()
 
         }//Checando vitória diagonal por O
         else if( validarVitoria(botao1, botao5, botao9, jogadaO) ||
                  validarVitoria(botao3, botao5, botao7, jogadaO) ) {
-                 abrirMenuGameOver()
+                 mensagemGameOver()
+        } //Checando empate
+        else if(!botao1.isClickable && !botao2.isClickable && !botao3.isClickable &&
+                !botao4.isClickable && !botao5.isClickable && !botao6.isClickable &&
+                !botao7.isClickable && !botao8.isClickable && !botao9.isClickable){
+                mensagemGameOver()
         }
     }
 
@@ -155,14 +160,18 @@ class GameActivity : AppCompatActivity() {
         return botao1.getTag() == jogada && botao2.getTag() == jogada && botao3.getTag() == jogada
     }
 
-    private fun abrirMenuGameOver() {
-        AlertDialog.
-        Builder(this)
-            .setTitle("Atenção!!!")
-            .setMessage("Deseja sair do app?")
-            .setPositiveButton("Sim") {_,_ -> finish()}
-            .setNegativeButton("Cancelar") {_,_ ->}
-            .show()
+    private fun mensagemGameOver() {
+
+        Toast.makeText(this, "Game Over", Toast.LENGTH_SHORT).show()
+
+//        AlertDialog.
+//        Builder(this)
+//            .setTitle("Atenção!!!")
+//            .setMessage("Deseja sair do app?")
+//            .setPositiveButton("Sim") {dialog,which -> finish()}
+//            .setNegativeButton("Cancelar") {dialog,which ->}
+//            .create()
+//            .show()
     }
 
     private fun checarRodada(): Boolean {

@@ -12,15 +12,15 @@
     >
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:src="@drawable/ic_xoicon"
         android:paddingBottom="20dp"
         />
     <!--*******************Seção alteração do player 01*******************-->
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="530dp"
         android:background="@drawable/ic_menu_box"
         android:orientation="vertical"
         android:gravity="center"
@@ -36,7 +36,7 @@
             >
 
             <ImageButton
-                android:id="@+id/esquerda_seletor"
+                android:id="@+id/esquerda_seletor_p1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_botao_seletor_left"
@@ -44,7 +44,7 @@
                 />
 
             <ImageView
-                android:id="@+id/pfp_default"
+                android:id="@+id/pfp_default_p1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_pfpdefault"
@@ -52,7 +52,7 @@
                 />
 
             <ImageButton
-                android:id="@+id/direita_seletor"
+                android:id="@+id/direita_seletor_p1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_botao_seletor_right"
@@ -68,17 +68,27 @@
             android:gravity="center"
             >
 
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
             <TextView
+                android:id="@+id/player1_nome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player 1"
                 android:textColor="@color/white"
-                android:layout_marginLeft="28dp"
                 android:paddingBottom="10dp"
                 android:textSize="19sp"
                 />
 
+            </LinearLayout>
+
             <EditText
+                android:id="@+id/alterar_nome_p1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Alterar o Nome"
@@ -90,6 +100,7 @@
                 android:textSize="15sp"
                 android:paddingLeft="10dp"
                 />
+
         </TableLayout>
 
         <!--*******************Seção alteração do player 02*******************-->
@@ -103,6 +114,7 @@
             >
 
             <ImageButton
+                android:id="@+id/esquerda_seletor_p2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_botao_seletor_left"
@@ -110,6 +122,7 @@
                 />
 
             <ImageView
+                android:id="@+id/pfp_default_p2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_pfpdefault"
@@ -117,6 +130,7 @@
                 />
 
             <ImageButton
+                android:id="@+id/direita_seletor_p2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_botao_seletor_right"
@@ -133,17 +147,27 @@
             android:layout_marginBottom="90dp"
             >
 
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
             <TextView
+                android:id="@+id/player2_nome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player 2"
                 android:textColor="@color/white"
-                android:layout_marginLeft="28dp"
                 android:paddingBottom="10dp"
                 android:textSize="19sp"
                 />
 
+            </LinearLayout>
+
             <EditText
+                android:id="@+id/alterar_nome_p2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Alterar o Nome"
@@ -156,6 +180,14 @@
                 android:paddingLeft="10dp"
                 />
 
+            <ImageButton
+                android:id="@+id/salvar_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ok_btn"
+                android:backgroundTint="#CFACFF"
+                />
+
         </TableLayout>
 
 
@@ -166,7 +198,6 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:background="@drawable/ic_botaovoltar"
-        android:layout_marginTop="50px"
         />
 
     </LinearLayout>
