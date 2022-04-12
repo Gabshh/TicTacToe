@@ -9,7 +9,7 @@ private val <T> Array<T>.setImageResource: Unit
     get() {}
 
 class ConfigActivity : AppCompatActivity() {
-    val profilePictureArray = arrayOf(R.drawable.ic_pfpdefault, R.drawable.ic_pfp2, R.drawable.ic_pfpcake)
+    val profilePictureArray = arrayOf(R.drawable.ic_pfp_default, R.drawable.pfp_2, R.drawable.ic_pfp_3)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

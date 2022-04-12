@@ -18,21 +18,24 @@
         android:paddingBottom="20dp"
         />
     <!--*******************Seção alteração do player 01*******************-->
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="530dp"
         android:background="@drawable/ic_menu_box"
-        android:orientation="vertical"
-        android:gravity="center"
+
         >
 
         <LinearLayout
+            android:id="@+id/player1_token_selector"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
             android:layout_marginTop="70dp"
             android:paddingBottom="10dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             >
 
             <ImageButton
@@ -47,7 +50,7 @@
                 android:id="@+id/pfp_default_p1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_pfpdefault"
+                android:src="@drawable/ic_pfp_default"
 
                 />
 
@@ -64,6 +67,10 @@
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/player1_token_selector"
+
+            android:layout_marginTop="75dp"
             android:orientation="vertical"
             android:gravity="center"
             >
@@ -111,6 +118,11 @@
             android:gravity="center"
             android:paddingVertical="10dp"
             android:layout_marginTop="50dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/table_p2"
+            android:layout_marginBottom="125dp"
+
             >
 
             <ImageButton
@@ -125,7 +137,7 @@
                 android:id="@+id/pfp_default_p2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_pfpdefault"
+                android:src="@drawable/ic_pfp_default"
 
                 />
 
@@ -140,11 +152,14 @@
         </LinearLayout>
 
         <TableLayout
+            android:id="@+id/table_p2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-            android:layout_marginBottom="90dp"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
             >
 
             <LinearLayout
@@ -191,7 +206,7 @@
         </TableLayout>
 
 
-    </LinearLayout>
+    </RelativeLayout>
 
     <ImageButton
         android:id="@+id/voltar"
