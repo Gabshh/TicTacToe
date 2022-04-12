@@ -18,15 +18,8 @@ lateinit var botao7: ImageButton
 lateinit var botao8: ImageButton
 lateinit var botao9: ImageButton
 
-lateinit var jogadaBtn1: Any
-lateinit var jogadaBtn2: Any
-lateinit var jogadaBtn3: Any
-lateinit var jogadaBtn4: Any
-lateinit var jogadaBtn5: Any
-lateinit var jogadaBtn6: Any
-lateinit var jogadaBtn7: Any
-lateinit var jogadaBtn8: Any
-lateinit var jogadaBtn9: Any
+val jogadaX = R.drawable.ic_x_selected_btn
+val jogadaO = R.drawable.ic_o_selected_btn
 
 var roundCount = 0
 
@@ -47,46 +40,38 @@ class GameActivity : AppCompatActivity() {
 
         botao1.setOnClickListener{
             validarJogada(botao1)
-            jogadaBtn1 = botao1.getTag()
         }
 
         botao2.setOnClickListener{
             validarJogada(botao2)
-            jogadaBtn2 = botao2.getTag()
         }
 
         botao3.setOnClickListener{
             validarJogada(botao3)
-            jogadaBtn3 = botao3.getTag()
         }
 
         botao4.setOnClickListener{
             validarJogada(botao4)
-            jogadaBtn4 = botao4.getTag()
         }
 
         botao5.setOnClickListener{
             validarJogada(botao5)
-            jogadaBtn5 = botao5.getTag()
         }
 
         botao6.setOnClickListener{
             validarJogada(botao6)
-            jogadaBtn6 = botao6.getTag()
         }
 
         botao7.setOnClickListener{
             validarJogada(botao7)
-            jogadaBtn7 = botao7.getTag()
         }
 
-        botao8.setOnClickListener{validarJogada(botao8)
-            jogadaBtn8 = botao8.getTag()
+        botao8.setOnClickListener{
+            validarJogada(botao8)
         }
 
         botao9.setOnClickListener{
             validarJogada(botao9)
-            jogadaBtn9 = botao9.getTag()
         }
 
 
@@ -109,16 +94,16 @@ class GameActivity : AppCompatActivity() {
             roundAviso1.setVisibility(View.GONE)
             roundAviso2.setVisibility(View.VISIBLE)
             if (botao != null) {
-                botao.setImageResource(R.drawable.ic_x_selected_btn)
-                botao.setTag(R.drawable.ic_x_selected_btn)
+                botao.setImageResource(jogadaX)
+                botao.setTag(jogadaX)
                 botao.setClickable(false)
             }
         }else{
             roundAviso1.setVisibility(View.VISIBLE)
             roundAviso2.setVisibility(View.GONE)
             if (botao != null) {
-                botao.setImageResource(R.drawable.ic_o_selected_btn)
-                botao.setTag(R.drawable.ic_o_selected_btn)
+                botao.setImageResource(jogadaO)
+                botao.setTag(jogadaO)
                 botao.setClickable(false)
             }
         }
@@ -128,9 +113,46 @@ class GameActivity : AppCompatActivity() {
     }
 
     private fun checarVitoria() {
-        if( jogadaBtn1 == R.drawable.ic_x_selected_btn && jogadaBtn2 == R.drawable.ic_x_selected_btn && jogadaBtn3 == R.drawable.ic_x_selected_btn ){
+        //Checando vitória horizontal por X
+        if( validarVitoria(botao1, botao2, botao3, jogadaX) ||
+            validarVitoria(botao4, botao5, botao6, jogadaX) ||
+            validarVitoria(botao7, botao8, botao9, jogadaX)   ){
             abrirMenuGameOver()
+
+        }//Checando vitória vertical por X
+        else if( validarVitoria(botao1, botao4, botao7, jogadaX) ||
+                 validarVitoria(botao2, botao5, botao8, jogadaX) ||
+                 validarVitoria(botao3, botao6, botao9, jogadaX)   ) {
+                 abrirMenuGameOver()
+
+        }//Checando vitória diagonal por X
+        else if( validarVitoria(botao1, botao5, botao9, jogadaX) ||
+                 validarVitoria(botao3, botao5, botao7, jogadaX) ) {
+                 abrirMenuGameOver()
         }
+
+        //Checando vitória horizontal por O
+        else if( validarVitoria(botao1, botao2, botao3, jogadaO) ||
+                 validarVitoria(botao4, botao5, botao6, jogadaO) ||
+                 validarVitoria(botao7, botao8, botao9, jogadaO)   ){
+                 abrirMenuGameOver()
+
+        }//Checando vitória vertical por O
+        else if( validarVitoria(botao1, botao4, botao7, jogadaO) ||
+                 validarVitoria(botao2, botao5, botao8, jogadaO) ||
+                 validarVitoria(botao3, botao6, botao9, jogadaO)   ) {
+                 abrirMenuGameOver()
+
+        }//Checando vitória diagonal por O
+        else if( validarVitoria(botao1, botao5, botao9, jogadaO) ||
+                 validarVitoria(botao3, botao5, botao7, jogadaO) ) {
+                 abrirMenuGameOver()
+        }
+    }
+
+
+    private fun validarVitoria(botao1: ImageButton, botao2: ImageButton, botao3: ImageButton, jogada: Int): Boolean {
+        return botao1.getTag() == jogada && botao2.getTag() == jogada && botao3.getTag() == jogada
     }
 
     private fun abrirMenuGameOver() {
